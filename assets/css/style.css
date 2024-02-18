@@ -1,5 +1,12 @@
-html {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  html {
     font-size: 14px;
+    
   }
   @media (min-width: 768px) {
     html {
@@ -7,6 +14,15 @@ html {
     }
   }
   
+  body{
+    background-color: #1C1C1C;
+    color: #fff;
+  }
+
+  .link-text{
+    color: #EAD07C;
+  }
+
   .container {
     max-width: 960px;
   }
@@ -19,8 +35,8 @@ html {
     min-width: 220px;
   }
   
-  .border-top { border-top: 1px solid #e5e5e5; }
-  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  .border-top { border-top: 1px solid #666666; }
+  .border-bottom { border-bottom: 1px solid #5c5c5c; }
   
   .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
   
